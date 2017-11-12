@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div class="wrapper"  style="text-align:right; width:500px; border:1px solid black; padding:20px;">
+    <form action="/process" method="post">
+        Your Name: <input type="text" name="name"><br><br>
+        Dojo Location: <select name="location">
+            <option value="ma">Mountain View</option>
+            <option value="sea">Seattle</option>
+            <option value="sj">San Jose</option>
+        </select><br><br>
+        Favorite Language: <select name="language">
+            <option value="python">python</option>
+            <option value="js">Javascript</option>
+            <option value="java">Java</option>
+        </select><br><br>
+        Comment (optional):
+        <textarea name="comment"></textarea><br>
+        <input type="submit" value="Submit" style="background-color:blue; color:white; border:1px solid black;">
+    </form>
+    </div>
+</body>
+</html>
